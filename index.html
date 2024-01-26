@@ -8,58 +8,47 @@
     <!-- Reset Css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
 
+    <!-- Embed font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
+
   <body>
-    <main>
-      <!-- Header -->
-      <header class="header">
-        <navbar class="nav-bar">
-          <!-- Logo -->
-          <a href="/">
+    <main style="height: 5000px">
+      <header class="header fixed">
+        <div class="main-content">
+          <div class="body">
+            <!-- Logo -->
             <img src="./assets/img/Logo.svg" alt="Lesson" class="logo" />
-          </a>
 
-          <!-- Navigation -->
-          <div class="navigation">
-            <ul class="itmes">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">Courses</a></li>
-              <li><a href="#!">Pricing</a></li>
-              <li><a href="#!">Reviews</a></li>
-            </ul>
-          </div>
+            <!-- Nav -->
+            <nav class="nav">
+              <ul>
+                <li class="active">
+                  <a href="#!">Home</a>
+                </li>
+                <li>
+                  <a href="#!">Courses</a>
+                </li>
+                <li>
+                  <a href="#!">Pricing</a>
+                </li>
+                <li>
+                  <a href="#!">Reviews</a>
+                </li>
+              </ul>
+            </nav>
 
-          <!-- Call to acctions -->
-          <div class="actions">
-            <a href="#!" class="btn btn-header">Sign Up</a>
-          </div>
-        </navbar>
-
-        <!-- Content -->
-        <div class="hero-wrap">
-          <div class="content">
-            <div class="hero">
-              <img
-                src="./assets/img/img-header.jpg"
-                alt="Learn without limits and spread knowledge."
-                class="img-big"
-              />
-              <div class="info">
-                <h1 class="title">
-                  Learn without limits and spread knowledge.
-                </h1>
-                <p class="desc">
-                  Build new skills for that “this is my year” feeling with
-                  courses, certificates, and degrees from world-class
-                  universities and companies.
-                </p>
-                <div class="cta">
-                  <div class="btn-1"></div>
-                  <img src="" alt="" class="play" />
-                  <div class="sub-title"></div>
-                </div>
-              </div>
+            <!-- Call to accitons -->
+            <div class="acction">
+              <a href="#!" class="btn sign-up-btn">Sign Up</a>
             </div>
           </div>
         </div>

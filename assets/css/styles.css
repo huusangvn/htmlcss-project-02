@@ -1,13 +1,9 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   --color-primary: #171100;
-}
-
-html,
-body {
-  scroll-behavior: smooth;
 }
 
 html {
@@ -16,108 +12,82 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
 }
 
-/* Commom Thanh Phần Dùng Chung */
+/* Common - Thành Phần Dùng Chung */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   text-decoration: none;
-  color: #5f5b53;
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.75; /* 175% */
 }
 
 .btn {
+  display: inline-block;
+  padding: 0 16px;
+  min-width: 118px;
+  line-height: 50px;
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
-  background: var(--color-primary);
-  padding: 15px 41px;
-  border-radius: 25px;
+  background: #171100;
+  border-radius: 24.5px;
 }
-
-.btn:hover {
-  opacity: 0.9;
-}
-
 /* Header */
 .header {
-  background: #fffcf4;
   height: 100vh;
+  background: #fffcf4;
 }
 
-.header .nav-bar {
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+
+.header .body {
+  padding: 36px 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav a {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 135px 0;
-  padding-top: 36px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 512px;
-  margin-right: 111px;
+.nav a:hover,
+.nav li.active a {
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+  color: #171100;
 }
 
-.navigation .itmes {
-  display: flex;
-}
-
-.navigation .itmes li {
-  margin-left: 42px;
-}
-
-.navigation .items {
+.nav li.active a::before {
   position: absolute;
-  top: 50%;
-  bottom: 50%;
-}
-
-.navigation a {
-  position: relative;
-}
-
-.navigation a::before {
-  position: absolute;
-  bottom: -3px;
   display: inline-block;
+  bottom: 4px;
   content: "";
   width: 12px;
   height: 2px;
   border-radius: 1px;
-  background: var(--color-primary);
+  background: #171100;
 }
-
-.navigation a:hover {
-  color: #171100;
-  font-weight: 600;
-}
-
-/* Hero-wrap */
-
-.hero-wrap {
-  display: flex;
-  margin-top: 128px;
-  height: calc(100vh - 270px);
-  background-color: #e6f0ff;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero .info {
-  max-width: 51%;
-}
-
-.img-big {
-  width: 470px;
-  height: calc(100vh - 65px);
-  object-fit: cover;
+.header .sign-up-btn {
+  margin-left: 49px;
+  min-width: 144px;
 }
