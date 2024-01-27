@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,38 +21,120 @@
   </head>
 
   <body>
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- Logo -->
+          <img src="./assets/img/Logo.svg" alt="Lesson" class="logo" />
+
+          <!-- Nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#Home">Home</a>
+              </li>
+              <li>
+                <a href="#!">Courses</a>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Call to accitons -->
+          <div class="acction">
+            <a href="#!" class="btn sign-up-btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
     <main style="height: 5000px">
-      <header class="header fixed">
-        <div class="main-content">
-          <div class="body">
-            <!-- Logo -->
-            <img src="./assets/img/Logo.svg" alt="Lesson" class="logo" />
+      <div class="hero-wrap">
+        <div class="main-content" id="Home">
+          <!-- hero -->
+          <div class="hero">
+            <div class="img-big">
+              <img
+                src="./assets/img/panda.jpg"
+                alt="Learn without limits and spread knowledge"
+                class="img"
+              />
+            </div>
 
-            <!-- Nav -->
-            <nav class="nav">
-              <ul>
-                <li class="active">
-                  <a href="#!">Home</a>
-                </li>
-                <li>
-                  <a href="#!">Courses</a>
-                </li>
-                <li>
-                  <a href="#!">Pricing</a>
-                </li>
-                <li>
-                  <a href="#!">Reviews</a>
-                </li>
-              </ul>
-            </nav>
+            <div class="info-img-big">
+              <div class="around-info">
+                <div class="row-info info1">
+                  <img
+                    src="./assets/img/icon-1.svg"
+                    alt="UI/UX Design"
+                    class="icon icon1"
+                  />
+                  <div class="sub-row">
+                    <span>20 Courses</span>
+                    <div class="sub-title">UI/UX Design</div>
+                  </div>
+                </div>
 
-            <!-- Call to accitons -->
-            <div class="acction">
-              <a href="#!" class="btn sign-up-btn">Sign Up</a>
+                <div class="row-info info2">
+                  <img
+                    src="./assets/img/icon-2.svg"
+                    alt="Development"
+                    class="icon icon2"
+                  />
+                  <div class="sub-row">
+                    <span>20 Courses</span>
+                    <div class="sub-title">Development</div>
+                  </div>
+                </div>
+
+                <div class="row-info info3">
+                  <img
+                    src="./assets/img/icon-3.svg"
+                    alt="Marketing"
+                    class="icon icon3"
+                  />
+                  <div class="sub-row">
+                    <span>30 Courses</span>
+                    <div class="sub-title">Marketing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- info -->
+            <div class="info">
+              <h1 class="title">Learn without limits and spread knowledge.</h1>
+              <p class="desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+
+              <!-- cta -->
+              <div class="cta">
+                <div class="btn btn-cta">See Courses</div>
+                <a href="#!"
+                  ><img
+                    src="./assets/img/icon-video.svg"
+                    alt="See Courses"
+                    class="cta-img"
+                  />
+                </a>
+                <a href="#!" class="cta-video"><span>Watch Video</span></a>
+              </div>
+              <span class="desc desc-span">Recent engagement</span>
+              <div class="report">
+                <img src="./assets/img/report50k.svg" alt="report50k" />
+                <img src="./assets/img/report70k.svg" alt="report70k" />
+              </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </main>
   </body>
 </html>
