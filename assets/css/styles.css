@@ -172,10 +172,8 @@ a {
 
 .info .cta-img {
   display: inline-block;
-  width: 40px;
-  height: 40px;
   margin-left: 28px;
-  margin-top: 10px;
+  margin-top: 17px;
 }
 
 .info .cta-video {
@@ -189,6 +187,10 @@ a {
   margin-top: 8px;
 }
 
+.info .report img:last-child {
+  margin-left: 28px;
+}
+
 .hero .img-big img {
   position: relative;
   border-radius: 24px;
@@ -197,7 +199,7 @@ a {
 .hero .info-img-big {
   display: block;
   position: absolute;
-  bottom: 15%;
+  bottom: 13%;
   left: 31.5%;
   width: 270px;
   height: 244px;
