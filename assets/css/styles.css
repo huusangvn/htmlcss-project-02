@@ -17,6 +17,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Common - Thành Phần Dùng Chung */
@@ -264,4 +265,203 @@ a {
 
 .around-info .icon3 {
   background: #ebeaff;
+}
+
+/* ==== Popular === */
+.popular {
+  margin-top: 200px;
+}
+
+.popular .main-content {
+  height: 645px;
+}
+
+.popular .header-popular {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-popular .info {
+  width: 458px;
+  max-width: 458px;
+}
+
+.header-popular .sub-title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.header-popular .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.popular .arrow {
+  position: absolute;
+  bottom: 42px;
+  right: 0;
+}
+
+.popular .arrow img {
+  padding: 13px 16px;
+  border-radius: 50%;
+}
+
+.popular .arrow-left {
+  border: 1px solid #ffb900;
+}
+
+.popular .arrow-right {
+  margin-left: 14px;
+  border: 1px solid #fff;
+  background: #ffb900;
+}
+
+.popular .list-items {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.popular .items img {
+  width: 370px;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.popular-info {
+  padding: 16px 22px 22px;
+}
+
+.popular .mini-content {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+.popular-info .desc {
+  margin-top: 6px;
+  width: 326px;
+  height: 52px;
+  max-width: 326px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.popular-info .cta {
+  margin-top: 12px;
+}
+
+.popular-info .cta .panda-first {
+  background: #ffb900;
+}
+
+.popular-info .popular-btn {
+  padding: 12px 0;
+  margin-left: 141px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+  border-radius: 25px;
+  background: #171100;
+}
+
+.popular-info .cta span {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+.popular-info .info-start {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 326px;
+  max-width: 326px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-info .info-start img {
+  position: absolute;
+  right: 0;
+  top: -8px;
+}
+
+.popular-info .info-sub-title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+/* ==== Feedback === */
+.feedback {
+  margin-top: 200px;
+  background: #2e2100;
+  height: 388px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback .avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback .main-content .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+
+.feedback .main-content .sub-name {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.feedback .main-content .desc {
+  width: 740px;
+  max-width: 740px;
+  margin-left: 30px;
+  font-family: Poppins;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+}
+
+.feedback .main-content .char {
+  margin-top: 28px;
 }
