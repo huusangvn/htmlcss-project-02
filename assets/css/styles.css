@@ -532,3 +532,21 @@ a {
   border-radius: 26px;
   background: #ffb900;
 }
+
+/* features-reverse */
+.features-reverse .info .sub-title,
+.features-reverse .desc {
+  width: 570px;
+  max-width: 570px;
+}
+
+.features-reverse .btn {
+  margin-bottom: 71px;
+}
+
+.features .img-features-reverse {
+  width: 470px;
+  max-width: 470px;
+  object-fit: cover;
+  border-radius: 20px;
+}
