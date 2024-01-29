@@ -669,6 +669,14 @@ a {
   margin: 38px 580px 96px;
 }
 
+.blog .btn {
+  margin-top: 12px;
+}
+
+.blog-btn {
+  background: #ffb900;
+}
+
 /* Footer */
 .footer {
   height: 428px;
