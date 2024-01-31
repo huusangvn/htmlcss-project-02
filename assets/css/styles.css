@@ -499,9 +499,9 @@ a {
 }
 
 .features .double-img .img {
-  width: 270px;
-  max-width: 270px;
-  height: 405px;
+  width: 440px;
+  max-width: 440px;
+  height: 470px;
   object-fit: cover;
   border-radius: 16px;
 }
