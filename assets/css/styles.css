@@ -499,9 +499,9 @@ a {
 }
 
 .features .double-img .img {
-  width: 440px;
-  max-width: 440px;
-  height: 470px;
+  width: 270px;
+  max-width: 270px;
+  height: 405px;
   object-fit: cover;
   border-radius: 16px;
 }
@@ -548,6 +548,7 @@ a {
 .features .img-features-reverse {
   width: 470px;
   max-width: 470px;
+  height: 440px;
   object-fit: cover;
   border-radius: 20px;
 }
