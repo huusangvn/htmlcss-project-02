@@ -195,6 +195,10 @@ a {
   border-radius: 20px;
 }
 
+.hero .img-big .img {
+  display: block;
+}
+
 .info .desc-span {
   margin-top: 48px;
 }
@@ -489,7 +493,6 @@ a {
   width: 740px;
   max-width: 740px;
   margin-left: 30px;
-  font-family: Poppins;
   color: #fff;
   font-size: 2.6rem;
   font-style: italic;
@@ -629,8 +632,6 @@ a {
   line-height: 28px; /* 175% */
 }
 
-.blog .main-content .title .sub-title {
-}
 .blog .list-items {
   display: flex;
   justify-content: space-between;
